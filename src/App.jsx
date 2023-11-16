@@ -60,7 +60,7 @@ const App = () => {
         <Typography variant="h5" align="center" gutterBottom>
           Budget Tracker
         </Typography>
-        <Paper sx={{ p: 2 }}>
+        <Paper elevation={3} sx={{ p: 2 }}>
           <TransactionForm addTransaction={addTransaction} />
           <TransactionList
             transactions={transactions}
@@ -70,6 +70,16 @@ const App = () => {
             Total Balance: {balance}
           </Typography>
         </Paper>
+        <Typography variant="caption" align="center">
+          Made with ❤️ by{" "}
+          <a
+            href="https://www.linkedin.com/in/brian-mwendwa-25326a173/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Brian Mwendwa
+          </a>
+        </Typography>
       </Container>
     </Box>
   );
