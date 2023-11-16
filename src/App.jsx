@@ -67,7 +67,7 @@ const App = () => {
             deleteTransaction={deleteTransaction}
           />
           <Typography variant="h6" align="center">
-            Total Budget Balance: {balance}
+            Total Balance: {balance}
           </Typography>
         </Paper>
       </Container>
