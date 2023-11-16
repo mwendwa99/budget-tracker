@@ -6,3 +6,25 @@ Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Technologies
+
+- React
+- Vite
+- Material UI
+
+## Installation
+
+- Clone the repo
+- Run `npm install`
+- Run `npm run dev`
+- Open `http://localhost:3000` in your browser
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+## Author
+
+Brian Mwendwa
+Hope you like it!
