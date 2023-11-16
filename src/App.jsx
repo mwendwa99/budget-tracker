@@ -70,9 +70,10 @@ const App = () => {
             Total Balance: {balance}
           </Typography>
         </Paper>
-        <Typography variant="caption" align="center">
+        <Typography variant="body1" align="center">
           Made with ❤️ by{" "}
           <a
+            style={{ color: "#1565c0" }}
             href="https://www.linkedin.com/in/brian-mwendwa-25326a173/"
             target="_blank"
             rel="noreferrer"
